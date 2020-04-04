@@ -1,0 +1,235 @@
+*{
+	margin: 0 ;
+}
+.heading1{
+	text-align: center;
+	padding-top: 10px;
+	color: #f3f3ef;
+	font-family: Montserrat;
+	font-size: 2vw;
+	font-weight: bold;
+	letter-spacing: 0.09em;
+	margin: .8%;
+
+}
+.heading2{
+	font-size: 1.3vw;
+	font-weight: 400;
+	padding-top: 0.5%;
+	padding-bottom: .5%;
+}
+.para1{
+	text-align: center;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 0.9%;
+	padding-bottom: 3.5%;
+	font-size: 1.4vw;
+	margin:.1%;
+	word-spacing: 0.09em
+}
+.container {
+	position:absolute;
+    transition: .5s ease;
+    top: 5.5%;
+    left: 75%;
+    letter-spacing: 0.09em;
+    display: inline;
+    padding-left: 10px;
+    font-size: 1.25vw;
+}
+.media i{
+	padding-left: 300%;
+	padding-bottom: 10%;
+	color: #fff;
+}
+.media ul{
+	list-style: none;
+	padding-left: 100px;
+}
+.media{
+	position: absolute;
+	top: 6%;
+	left:2%;
+}
+i:hover{
+	color: #B0E0E6;
+	transition: .5s;
+}
+.portal{
+	text-align: center;
+}
+.portal a{
+	color: white;
+	font-size: 1.3vw;
+	letter-spacing: 0.09em;
+	padding: 15px 40px;
+	overflow: hidden;
+	transition: 0.2s;
+}
+.portal li{
+	display: inline;
+}
+/*.portal span{
+	position: absolute;
+	display: block;
+}
+.portal span:nth-child(1){
+	top: 0;
+	transform: translate(-115%);
+	width: 100%;
+	height: 4px;
+	background: linear-gradient(90deg,transparent,#2196f3);	
+}
+.portal.link1:hover span:nth-child(1){
+	transform: translateX(100%);
+	transition: 1s;
+}*/
+.portal a:hover{
+	color: #B0E0E6;
+	transition: .5s;
+}	
+.gallery{
+	padding-top: -4%;
+	display: grid;
+	grid-template-columns: repeat(8,1fr);
+	grid-template-rows: repeat(26,5vw);
+	grid-gap: 1.25rem;
+	overflow: hidden;
+
+ }
+.content{	 
+   width: 90%;
+   margin: 7rem auto;
+   margin-top: 7rem;
+
+}
+.gallery__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block; 
+} 
+
+							/*For Home Page*/
+
+.gallery__item--1{
+	grid-column: 1/9;
+	grid-row: 1/7;
+}
+.gallery__item--2{
+	grid-column: 1/5;
+	grid-row: 7/14;
+}
+.gallery__item--3{
+	grid-column: 5/9;
+	grid-row: 7/11;
+}
+.gallery__item--4{
+	grid-column: 1/5;
+	grid-row: 18/23;
+}
+.gallery__item--5{
+	grid-column: 1/5;
+	grid-row: 14/18;
+}
+.gallery__item--6{
+	grid-column: 5/9;
+	grid-row: 11/20;
+}
+.gallery__item--7{
+	grid-column: 5/9;
+	grid-row: 20/25;
+}
+.gallery__item--8{
+	grid-column: 1/5;
+	grid-row: 23/28;
+}
+/*.gallery__img:hover{
+	filter: drop-shadow(4px 4px 6px gray);
+	transform: scale(1.1);
+}*/
+							/*For Portraits Page */
+.gallery__item--9{
+	grid-column: 1/5;
+	grid-row: 5/16;
+}
+.gallery__item--10{
+	grid-column: 5/9;
+	grid-row: 10/20;
+}
+.gallery__item--11{
+	grid-column: 1/5;
+	grid-row: 16/22;
+}
+.gallery__item--12{
+	grid-column: 1/5;
+	grid-row: 22/28;
+}
+.gallery__item--13{
+	grid-column: 5/9;
+	grid-row: 20/27;
+}
+.gallery__item--14{
+	grid-column: 5/9;
+	grid-row: 1/10;
+}
+.gallery__item--15{
+	grid-column: 1/5;
+	grid-row: 1/5;
+}
+ 								/*For Wildlife Page */
+.gallery__item--16{
+	grid-column: 1/5;
+	grid-row: 1/6;
+}
+.gallery__item--17{
+	grid-column: 5/9;
+	grid-row: 1/5;
+}
+.gallery__item--18{
+	grid-column: 5/9;
+	grid-row: 5/10;
+}
+.gallery__item--19{
+	grid-column: 5/9;
+	grid-row: 10/15;
+}
+.gallery__item--20{
+	grid-column: 1/5;
+	grid-row: 6/12;
+}
+.gallery__item--21{
+	grid-column: 1/5;
+	grid-row: 12/17;
+}
+.gallery__item--22{
+	grid-column: 5/9;
+	grid-row: 15/20;
+}
+.gallery__item--23{
+	grid-column: 1/5;
+	grid-row: 17/22;
+}
+.gallery__item--24{
+	grid-column: 5/9;
+	grid-row: 20/25;
+}
+.gallery__item--25{
+	grid-column: 1/5;
+	grid-row: 22/27;
+}
+
+body{
+	background-color: #31485f;
+	color: #f3f3ef;
+	font-family: Montserrat;
+	text-align: justify;
+	line-height: 200%;
+	margin: 0;
+}
+
+footer{
+	text-align: center;
+}
+
